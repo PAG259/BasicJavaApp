@@ -11,7 +11,7 @@ public class MethodRef {
 		List<String> ls=Arrays.asList("Parth","Akshay","Kaushal","Vaibhav");
 		
 		//Lambda Expression using call by value
-		//ls.forEach(t -> System.out.println(t));
+		ls.forEach(t -> System.out.println(t));
 		
 		//Method Reference
 		ls.forEach(System.out::println);
