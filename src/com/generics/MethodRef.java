@@ -9,6 +9,7 @@ public class MethodRef {
 		// TODO Auto-generated method stub
 
 		List<String> ls=Arrays.asList("Parth","Akshay","Kaushal","Vaibhav");
+		ls.add("Gaurav");
 		
 		//Lambda Expression using call by value
 		ls.forEach(t -> System.out.println(t));
